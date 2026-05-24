@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExamPrep - Upload</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="home.html" class="nav-logo">📖 ExamPrep</a>
+      <input type="text" class="nav-search" placeholder="Search by module code, topic...">
+    </div>
+    <div class="nav-right">
+      <a href="browse.html" class="nav-btn">📚 Browse</a>
+      <a href="upload.html" class="nav-btn active">⬆️ Upload</a>
+      <a href="myresources.html" class="nav-btn">👤 My Resources</a>
+      <a href="leaderboard.html" class="nav-btn">🏆 Leaderboard</a>
+      <a href="home.html" class="nav-btn">👤 Student Dashboard</a>
+    </div>
+  </nav>
+
+  <div class="page-content">
+    <h1 class="page-title">Upload Study Resource</h1>
+    <p class="page-subtitle">Share your notes, past papers, and study materials with fellow students</p>
+
+    <div class="upload-form-card">
+      <h3>Resource Details</h3>
+      <p class="form-subtitle">Fill in the information about the resource you are sharing</p>
+
+      <div class="form-group">
+        <label>Resource Title</label>
+        <input type="text" placeholder="e.g., 2024 Final Exam Paper with Solutions">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Module Code</label>
+          <select>
+            <option>Select module</option>
+            <option>HCIN6222 - Human Computer Interaction</option>
+            <option>BUSA7321 - Business Analysis 3A</option>
+            <option>ITRM7311 - IT Risk Management</option>
+            <option>IRIT7311 - Introduction to Research</option>
+            <option>ACCT5210 - Financial Accounting 2</option>
+            <option>MNGT6110 - Strategic Management</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Resource Type</label>
+          <select>
+            <option>Select type</option>
+            <option>Past Paper</option>
+            <option>Summary</option>
+            <option>Notes</option>
+            <option>Study Guide</option>
+            <option>Assignment</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Description</label>
+        <textarea placeholder="Provide a brief description of the resource..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Upload File</label>
+        <div class="upload-zone">
+          <span class="upload-icon">📄</span>
+          <p>Click to upload or drag and drop</p>
+          <p class="upload-hint">PDF, DOC, DOCX, or TXT (max 10MB)</p>
+        </div>
+      </div>
+
+      <div class="form-buttons">
+        <a href="home.html"><button class="btn-primary">⬆️ Upload Resource</button></a>
+        <a href="home.html"><button class="btn-secondary">Cancel</button></a>
+      </div>
+    </div>
+
+    <div class="guidelines-card">
+      <h3>Upload Guidelines</h3>
+      <ul>
+        <li>Ensure all content is your own work or properly attributed</li>
+        <li>Resources should be relevant and helpful to other students</li>
+        <li>Use clear, descriptive titles and accurate module codes</li>
+        <li>Check that files are readable and properly formatted</li>
+        <li>Do not upload copyrighted material without permission</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2026 ExamPrep - Student Study Resource Exchange Platform</p>
+    <div class="footer-links">
+      <a href="#">About</a>
+      <a href="#">Guidelines</a>
+      <a href="#">Privacy</a>
+      <a href="#">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>
